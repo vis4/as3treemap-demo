@@ -1,0 +1,3 @@
+[submodule "lib/as3treemap"]
+	path = lib/as3treemap
+	url = git://github.com/gka/as3treemap.git
