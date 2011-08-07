@@ -25,6 +25,9 @@ package
 			var ldr:URLLoader = new URLLoader();
 			ldr.addEventListener(Event.COMPLETE, dataLoaded);
 			ldr.load(new URLRequest('flare.json'));
+			
+			stage.align = "TL";
+			stage.scaleMode = "noScale";
 		}
 		
 		protected function dataLoaded(e:Event):void 
