@@ -7,8 +7,6 @@ package
 	import flash.net.URLLoader;
 	import flash.net.URLRequest;
 	import net.vis4.treemap.data.*;
-	import net.vis4.treemap.events.TreeMapBranchEvent;
-	import net.vis4.treemap.events.TreeMapEvent;
 	import net.vis4.treemap.layout.RecursiveSquarifyLayout;
 	import net.vis4.treemap.layout.SliceAndDiceLayout;
 	import net.vis4.treemap.layout.SquarifyLayout;

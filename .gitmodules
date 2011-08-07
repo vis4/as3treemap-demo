@@ -4,3 +4,6 @@
 [submodule "lib/as3corelib"]
 	path = lib/as3corelib
 	url = git://github.com/mikechambers/as3corelib.git
+[submodule "vis4.as"]
+	path = lib/vis4.as
+	url = git://github.com/gka/vis4.as.git
