@@ -14,9 +14,9 @@
   <!-- Other classes to be compiled into your SWF -->
   <classpaths>
     <class path="src" />
-    <class path="lib\as3treemap" />
     <class path="lib\as3corelib\src" />
     <class path="lib\vis4.as\src" />
+    <class path="lib\as3treemap\src" />
   </classpaths>
   <!-- Build options -->
   <build>

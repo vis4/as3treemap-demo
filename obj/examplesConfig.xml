@@ -18,9 +18,9 @@
     </define>
     <source-path append="true">
       <path-element>Z:\Incubator\as3treemap-demo\src</path-element>
-      <path-element>Z:\Incubator\as3treemap-demo\lib\as3treemap</path-element>
       <path-element>Z:\Incubator\as3treemap-demo\lib\as3corelib\src</path-element>
       <path-element>Z:\Incubator\as3treemap-demo\lib\vis4.as\src</path-element>
+      <path-element>Z:\Incubator\as3treemap-demo\lib\as3treemap\src</path-element>
       <path-element>\\psf\Home\Documents\www\moritz\sl\relbrowser</path-element>
       <path-element>C:\Program Files\FlashDevelop\Library\AS3\classes</path-element>
     </source-path>
