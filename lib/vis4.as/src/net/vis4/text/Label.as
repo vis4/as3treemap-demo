@@ -190,6 +190,9 @@
 					scaleX = scaleY = font.size / 127;
 				}
 			} else {
+				
+				autoSize = TextFieldAutoSize.LEFT;
+				
 				if (styleSheet is StyleSheet) {
 					_htmlMode = true;
 				} else {

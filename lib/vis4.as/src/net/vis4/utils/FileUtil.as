@@ -13,6 +13,8 @@
 	import flash.net.URLRequestHeader;
 	import flash.net.URLRequestMethod;
 	import flash.utils.ByteArray;
+	import net.vis4.text.fonts.system.Verdana;
+	import net.vis4.text.Label;
 
 	/**
 	 * ...
@@ -59,7 +61,7 @@
 			new URLLoader(req);
 		}
 		
-		public static function send(filename:String, content:String):void
+		public static function send(filename:String, content:*):void
 		{
 			var fileRef:FileReference = new FileReference();
 			
@@ -74,6 +76,7 @@
 				return;
 			} catch (err:Error) {
 				//addChild(new Label(err.getStackTrace(), new Verdana()));
+				trace(err.getStackTrace());
 			} //*/
 		}
 		
